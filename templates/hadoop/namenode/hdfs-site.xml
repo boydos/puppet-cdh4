@@ -24,11 +24,14 @@
     <value>/srv/dfs/nn</value>
   </property>
 
-
   <property>
     <name>dfs.permissions.superusergroup</name>
     <value>hadoop</value>
   </property>
 
+  <property>
+    <name>dfs.datanode.max.xcievers</name>
+    <value>4096</value>
+  </property>
 
 </configuration>
