@@ -18,4 +18,13 @@
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 
 <configuration>
+<property>
+  <name>dfs.namenode.http-address</name>
+  <value><%= namenode_hostname %>:<%= namenode_http_port %></value>
+  <description>
+    The address and the base port on which the dfs NameNode Web UI will listen.
+    If the port is 0, the server will start on a free port.
+  </description>
+</property>
+
 </configuration>
